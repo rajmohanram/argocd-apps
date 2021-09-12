@@ -6,7 +6,7 @@ metadata:
   name: kustomize-guestbook-ui
   namespace: default
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
