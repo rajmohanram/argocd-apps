@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app.kubernetes.io/instance: guestbook
-  name: kustomize-guestbook-ui
+  name: kustomize-guestbook-ui1
   namespace: default
 spec:
   type: NodePort
