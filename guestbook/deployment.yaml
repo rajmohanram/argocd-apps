@@ -4,6 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: guestbook
   name: kustomize-guestbook-ui
+  namespace: default
 spec:
   replicas: 1
   revisionHistoryLimit: 3
