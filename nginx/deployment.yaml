@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app.kubernetes.io/instance: guestbook
-  name: kustomize-guestbook-ui
+  name: kustomize-guestbook-ui1
   namespace: default
 spec:
   replicas: 1
